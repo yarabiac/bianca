@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Avatar-perfil.jpg" alt="avatar da Bianca" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Bianca</p>
+        <h1>Estudo Programação</h1>
+        <p>Sou aluna de programação e estou aprendendo a linguagem JavaScript,HTML,CSS e Scratch</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto 1.png" class="card-img-top" alt="Imagem do projeto de corrida">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida maluca</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta um jogo de corrida onde quatro
+                            amigos podem jogar juntos, ao clicar em qualquer canto da tela ativa o jogo.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto 2.png" class="card-img-top" alt="Imagem do projeto Monalisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Monalisa
+                            Artificial</h5>
+                        <p class="card-text">Este projeto é um jogo interativo baseado no quadro Monalisa, usando formas
+                            geométricas para fazer o rosto usando sua criatividade, ao movimentar o cursor do mause os
+                            olhos do personagem acompanha para onde você está indo.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Projeto 3.png" class="card-img-top" alt="Imagem do projeto de Quente frio">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente frio
+                        </h5>
+                        <p class="card-text">Este projeto se chama quente frio pois quando procuramos a bolinha pequena
+                            que não aparece a que está visivel ao nossos olhos vai diminuindo quando chega o mais
+                            proximo possivel.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida maluca</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é uma página web que apresenta um jogo de corrida onde quatro amigos podem jogar
+                        juntos, ao clicar em qualquer canto da tela ativa o jogo</p>
+                    <img src="img/Projeto 1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto corrida">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/startmarcelo/sketches/qHrPOdfrw">Ver projeto ao vivo</a>
+                    <a href="https://editor.p5js.org/startmarcelo/sketches/qHrPOdfrw">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Monalisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <p>Este projeto é um jogo interativo baseado no quadro Monalisa, usando formas
+                            geométricas para fazer o rosto usando sua criatividade, ao movimentar o cursor do mause os
+                            olhos do personagem acompanha para onde você está indo.</p>
+                    <img src="img/Projeto 2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Monalisa">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/startmarcelo/sketches/O-xKviEus">Ver projeto ao
+                        vivo</a>
+                    <a href="https://editor.p5js.org/startmarcelo/sketches/O-xKviEus">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quente frio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto se chama quente frio pois quando procuramos a bolinha pequena
+                            que não aparece a que está visivel ao nossos olhos vai diminuindo quando chega o mais
+                            proximo possivel.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/startmarcelo/sketches/33yGr9VB2">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/yarabiac">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Bianca</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
